@@ -7,7 +7,7 @@ const Characters = props => {
     return (
             <div>
                 <h1>Star Wars Characters</h1>
-                <div className='characters'>
+                <div className='characters' onClick={}>
                     {props.characterList.map(characterOnList => (
                         <CharacterCard character={characterOnList} /> 
                     ))}
